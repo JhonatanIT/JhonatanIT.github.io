@@ -1,0 +1,25 @@
+title: "Jhonatan — Software Engineer"
+description: "Portfolio showcasing my projects, skills, and experience."
+theme: sproogen/resume-theme
+
+# Optional: Add your social links
+author:
+  name: "Jhonatan"
+  email: "jhonatan@example.com"
+  github: "JhonatanIT"
+  linkedin: "https://linkedin.com/in/jhonatan"
+
+# Enable GitHub Pages features
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation links (appear automatically in some themes)
+nav:
+  - name: "Home"
+    link: "/"
+  - name: "Projects"
+    link: "/projects"
+  - name: "Contact"
+    link: "/contact"
