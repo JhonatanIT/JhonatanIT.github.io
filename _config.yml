@@ -1,6 +1,6 @@
 title: "Jhonatan — Software Engineer"
 description: "Portfolio showcasing my projects, skills, and experience."
-theme: sproogen/resume-theme
+remote_theme: pages-themes/cayman@v0.2.0
 
 # Optional: Add your social links
 author:
