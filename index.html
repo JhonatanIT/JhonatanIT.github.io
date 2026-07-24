@@ -1,65 +1,420 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jhonatan's Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jhonatan Ibañez Taccsi — Software Engineer</title>
+<meta name="description" content="Software Engineer with 8+ years delivering scalable, secure, AI-powered solutions across banking, telecommunications, and enterprise systems.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Jhonatan — Software Engineer</h1>
-    <p>Building systems, solving problems, and creating clean code.</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Bachelor in Systems Engineering. Experience in factory and warehouse systems. Skilled in Python, SQL, and web development. Currently based in Auckland, New Zealand.</p>
-  </section>
+<div class="grain"></div>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Warehouse Automation System</h3>
-      <p>Optimized workflows using Python and SQL.</p>
-      <a href="https://github.com/JhonatanIT/warehouse-system">View on GitHub</a>
+<nav class="topnav">
+  <a href="#top" class="brand">JIT<span class="dot">.</span></a>
+  <div class="navlinks">
+    <a href="#work">work</a>
+    <a href="#stack">stack</a>
+    <a href="#experience">experience</a>
+    <a href="#contact">contact</a>
+  </div>
+  <a href="mailto:jhonatan.ibatac@gmail.com" class="nav-cta">say hello</a>
+</nav>
+
+<header id="top" class="hero">
+  <div class="hero-inner">
+    <div class="status-line">
+      <span class="dot-pulse"></span>
+      <span class="mono">status: open to new roles · Auckland, NZ (UTC+12)</span>
     </div>
-    <div class="project">
-      <h3>Packaging Quality Control</h3>
-      <p>Inspection tools for factory processes.</p>
-      <a href="https://github.com/JhonatanIT/packaging-quality">View on GitHub</a>
+    <h1 class="hero-title">
+      Jhonatan Ibañez Taccsi<br>
+      <span class="hero-role">builds backend systems</span> that hold up<br>
+      under <span class="accent">real production load.</span>
+    </h1>
+    <p class="hero-sub">
+      8+ years delivering scalable, secure, AI-powered solutions across
+      banking, telecommunications, and enterprise systems — currently at
+      NTT DATA, working across cloud-native architectures and generative AI.
+      Based in New Zealand.
+    </p>
+    <div class="hero-actions">
+      <a href="#work" class="btn btn-primary">See the work ↓</a>
+      <a href="https://github.com/JhonatanIT" target="_blank" rel="noopener" class="btn btn-ghost">GitHub, 46 repos ↗</a>
     </div>
-    <div class="project">
-      <h3>Portfolio Website</h3>
-      <p>This very site, built with GitHub Pages.</p>
-      <a href="https://github.com/JhonatanIT/JhonatanIT.github.io">View Repository</a>
+  </div>
+
+  <div class="hero-panel mono" aria-hidden="true">
+    <div class="panel-head">
+      <span class="panel-dot red"></span><span class="panel-dot yellow"></span><span class="panel-dot green"></span>
+      <span class="panel-title">~/jhonatan/profile.log</span>
+    </div>
+    <pre class="panel-body"><span class="c-key">role</span>:      Software Engineer
+<span class="c-key">experience</span>: 8+ years
+<span class="c-key">domains</span>:    banking, telco, enterprise
+<span class="c-key">current</span>:    NTT DATA Europe &amp; LATAM
+<span class="c-key">core</span>:       Java · Spring Boot · Quarkus
+<span class="c-key">cloud</span>:      Azure · AKS · Docker · Terraform
+<span class="c-key">ai</span>:         LangChain4j · Gemini · ML Kit
+<span class="c-key">certified</span>: Azure Dev Associate, DevOps Expert
+<span class="c-key">based_in</span>:  Auckland, New Zealand
+<span class="c-key">reach</span>:     jhonatan.ibatac@gmail.com
+
+<span class="c-comment"># run</span>
+<span class="c-prompt">$</span> whoami --curious --collaborative</pre>
+  </div>
+</header>
+
+<main>
+
+  <section id="work" class="section">
+    <div class="section-head">
+      <span class="eyebrow mono">01 / selected work</span>
+      <h2>Projects worth a second look</h2>
+      <p class="section-sub">Pulled straight from <a href="https://github.com/JhonatanIT" target="_blank" rel="noopener">github.com/JhonatanIT</a> — real repos, real commit history.</p>
+    </div>
+
+    <div class="project-grid">
+
+      <article class="project-card featured">
+        <div class="project-top">
+          <span class="project-lang java">Java</span>
+          <div class="project-stats mono">★ 1 · ⑂ 1</div>
+        </div>
+        <h3>cl-generator-ai-service</h3>
+        <p>A cover letter generator powered by Generative AI. Built on Spring Boot with LangChain4j orchestrating the model calls, plus WebMagic for source scraping. 300+ commits of real iteration, not a weekend hack.</p>
+        <div class="tag-row">
+          <span class="tag">Spring Boot</span>
+          <span class="tag">LangChain4j</span>
+          <span class="tag">WebMagic</span>
+        </div>
+        <a href="https://github.com/JhonatanIT/cl-generator-ai-service" target="_blank" rel="noopener" class="project-link">View repository ↗</a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-top">
+          <span class="project-lang python">Python</span>
+          <div class="project-stats mono">★ 3 · ⑂ 1</div>
+        </div>
+        <h3>my_ai_bot</h3>
+        <p>A ChatGPT-backed Discord assistant, deployed with a real CD pipeline — GitHub Actions pushing to Azure App Service. The most-starred repo on the profile.</p>
+        <div class="tag-row">
+          <span class="tag">Flask</span>
+          <span class="tag">OpenAI API</span>
+          <span class="tag">Azure</span>
+          <span class="tag">GitHub Actions</span>
+        </div>
+        <a href="https://github.com/JhonatanIT/my_ai_bot" target="_blank" rel="noopener" class="project-link">View repository ↗</a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-top">
+          <span class="project-lang kotlin">Kotlin</span>
+          <div class="project-stats mono">★ 1</div>
+        </div>
+        <h3>kotlin-gemini-api-generative-ai</h3>
+        <p>Kotlin wired directly into Google's Gemini API — a hands-on look at bringing Generative AI into native Android and Kotlin Multiplatform projects.</p>
+        <div class="tag-row">
+          <span class="tag">Kotlin</span>
+          <span class="tag">Gemini API</span>
+          <span class="tag">Generative AI</span>
+        </div>
+        <a href="https://github.com/JhonatanIT/kotlin-gemini-api-generative-ai" target="_blank" rel="noopener" class="project-link">View repository ↗</a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-top">
+          <span class="project-lang kotlin">Kotlin</span>
+          <div class="project-stats mono">★ 1</div>
+        </div>
+        <h3>kotlin-camerax-mlkit</h3>
+        <p>Examples wiring CameraX image analysis into ML Kit — real-time detection pipelines built with modern Android tooling.</p>
+        <div class="tag-row">
+          <span class="tag">CameraX</span>
+          <span class="tag">ML Kit</span>
+          <span class="tag">Android</span>
+        </div>
+        <a href="https://github.com/JhonatanIT/kotlin-camerax-mlkit" target="_blank" rel="noopener" class="project-link">View repository ↗</a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-top">
+          <span class="project-lang java">Java</span>
+          <div class="project-stats mono">★ 1</div>
+        </div>
+        <h3>money-exchange-api</h3>
+        <p>A clean, focused REST API for currency exchange — the kind of small, well-scoped service that's easy to underrate and satisfying to get right.</p>
+        <div class="tag-row">
+          <span class="tag">Java</span>
+          <span class="tag">REST API</span>
+        </div>
+        <a href="https://github.com/JhonatanIT/money-exchange-api" target="_blank" rel="noopener" class="project-link">View repository ↗</a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-top">
+          <span class="project-lang kotlin">Kotlin</span>
+          <div class="project-stats mono">multiplatform</div>
+        </div>
+        <h3>MiLoca</h3>
+        <p>A Kotlin Multiplatform app targeting shared logic across Android, iOS and Web — including experiments with Compose/Web and Kotlin/Wasm.</p>
+        <div class="tag-row">
+          <span class="tag">Kotlin Multiplatform</span>
+          <span class="tag">Compose</span>
+        </div>
+        <a href="https://github.com/JhonatanIT/MiLoca" target="_blank" rel="noopener" class="project-link">View repository ↗</a>
+      </article>
+
+    </div>
+
+    <a href="https://github.com/JhonatanIT?tab=repositories" target="_blank" rel="noopener" class="view-all mono">→ view all 46 repositories on GitHub</a>
+  </section>
+
+  <section id="stack" class="section stack-section">
+    <div class="section-head">
+      <span class="eyebrow mono">02 / stack</span>
+      <h2>What I reach for</h2>
+    </div>
+
+    <div class="stack-grid">
+      <div class="stack-col">
+        <h4 class="mono">backend</h4>
+        <ul>
+          <li>Java · Kotlin</li>
+          <li>Spring Boot · Quarkus</li>
+          <li>WebFlux (reactive)</li>
+          <li>JPA · Hibernate · MyBatis</li>
+          <li>Spring Security · JWT</li>
+          <li>MapStruct · Maven</li>
+        </ul>
+      </div>
+      <div class="stack-col">
+        <h4 class="mono">generative ai</h4>
+        <ul>
+          <li>LangChain4j</li>
+          <li>Gemini Flash (multi-modal)</li>
+          <li>Google ML Kit</li>
+          <li>Embedding stores</li>
+          <li>OpenAI API</li>
+        </ul>
+      </div>
+      <div class="stack-col">
+        <h4 class="mono">frontend &amp; mobile</h4>
+        <ul>
+          <li>Angular · React</li>
+          <li>TypeScript</li>
+          <li>Flutter</li>
+          <li>Kotlin Multiplatform</li>
+          <li>Jetpack Compose</li>
+        </ul>
+      </div>
+      <div class="stack-col">
+        <h4 class="mono">cloud &amp; devops</h4>
+        <ul>
+          <li>Azure (App Services, Functions, AKS)</li>
+          <li>Docker · Kubernetes</li>
+          <li>Terraform</li>
+          <li>Jenkins · GitHub Actions · Azure DevOps</li>
+          <li>ELK · Grafana · Azure Monitor</li>
+        </ul>
+      </div>
+      <div class="stack-col">
+        <h4 class="mono">data</h4>
+        <ul>
+          <li>PostgreSQL · MySQL</li>
+          <li>SQL Server · Oracle</li>
+          <li>MongoDB · DynamoDB</li>
+          <li>Cosmos DB · GraphQL</li>
+        </ul>
+      </div>
+      <div class="stack-col">
+        <h4 class="mono">security &amp; practice</h4>
+        <ul>
+          <li>HashiCorp Vault</li>
+          <li>Circuit Breaker patterns</li>
+          <li>TDD · SOLID</li>
+          <li>Clean Code</li>
+        </ul>
+      </div>
     </div>
   </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>Python, JavaScript, HTML, CSS</li>
-      <li>SQL, PostgreSQL</li>
-      <li>Git, GitHub</li>
-    </ul>
+  <section id="experience" class="section">
+    <div class="section-head">
+      <span class="eyebrow mono">03 / experience</span>
+      <h2>Where I've built things</h2>
+      <p class="section-sub">8+ years, six roles, three countries — from trainee developer to leading BCP client projects at NTT DATA.</p>
+    </div>
+
+    <div class="impact-strip mono">
+      <div class="impact-stat">
+        <span class="impact-number accent">40%</span>
+        <span class="impact-label">scalability gain, electronic invoicing systems</span>
+      </div>
+      <div class="impact-stat">
+        <span class="impact-number accent">60%</span>
+        <span class="impact-label">cut in reporting time, same systems</span>
+      </div>
+      <div class="impact-stat">
+        <span class="impact-number accent">25%</span>
+        <span class="impact-label">lift in client engagement via AI-driven mobile apps</span>
+      </div>
+    </div>
+
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-meta mono">Sep 2025 — Present · 11 mos<br>Lima, Peru · Hybrid</div>
+        <div>
+          <h3>Software Engineer</h3>
+          <p class="timeline-org">NTT DATA Europe &amp; LATAM · Full-time</p>
+          <p>Leading BCP client projects, including migrating infrastructure from AKS single-node to AKS multi-node clusters.</p>
+          <div class="tag-row">
+            <span class="tag">Java</span><span class="tag">Microsoft Azure</span><span class="tag">AKS</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-meta mono">May 2025 — Sep 2025 · 5 mos<br>Lima, Peru · On-site</div>
+        <div>
+          <h3>Web Developer</h3>
+          <p class="timeline-org">Premier Group · Full-time</p>
+          <p>Built an Estimation Automation Platform — an automated workflow that cut manual client-estimate processing time by integrating internal data sources with calculation logic.</p>
+          <div class="tag-row">
+            <span class="tag">Java</span><span class="tag">Angular</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-meta mono">Jan 2022 — May 2025 · 3 yrs 5 mos<br>Peru · Remote</div>
+        <div>
+          <h3>Mobile Application Developer</h3>
+          <p class="timeline-org">Freelancer.com · Freelance</p>
+          <p>Developed custom mobile applications for small businesses and industries, integrating innovative technologies such as Google ML Kit for vision-based functionalities, including text recognition and QR code scanning.</p>
+          <div class="tag-row">
+            <span class="tag">Kotlin</span><span class="tag">Flutter</span><span class="tag">ML Kit</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-meta mono">Jun 2021 — Dec 2021 · 7 mos</div>
+        <div>
+          <h3>Software Developer II</h3>
+          <p class="timeline-org">Latin American BYTE · Full-time</p>
+          <p>Development of enterprise systems in the banking and telecommunications sector for international companies. Recognized for the CSS production start-up.</p>
+          <div class="tag-row">
+            <span class="tag">Back-End Development</span><span class="tag">Java</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-meta mono">Aug 2020 — May 2021 · 10 mos</div>
+        <div>
+          <h3>Software Developer I</h3>
+          <p class="timeline-org">Latin American BYTE · Full-time</p>
+          <p>Analyzed and implemented systems applications, fulfilling functions related to information gathering, requirements definition, and programming implementation.</p>
+          <div class="tag-row">
+            <span class="tag">Back-End Development</span><span class="tag">Front-End Development</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-meta mono">Aug 2019 — Jul 2020 · 1 yr</div>
+        <div>
+          <h3>Developer II</h3>
+          <p class="timeline-org">Latin American BYTE · Full-time</p>
+          <p>Developed and modified applications across different programming languages, supporting internal users through implementation, guaranteeing terms of opportunity and quality with correct operation.</p>
+          <div class="tag-row">
+            <span class="tag">Back-End Development</span><span class="tag">Incident Support</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-meta mono">Aug 2018 — Jul 2019 · 1 yr</div>
+        <div>
+          <h3>Developer I</h3>
+          <p class="timeline-org">Latin American BYTE · Full-time</p>
+          <p>Development of applications through different programming languages, providing support to internal users during implementation.</p>
+          <div class="tag-row">
+            <span class="tag">Back-End Development</span><span class="tag">Documentation</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-meta mono">Jan 2018 — Jul 2018 · 7 mos</div>
+        <div>
+          <h3>Trainee Developer</h3>
+          <p class="timeline-org">Latin American BYTE · Internship</p>
+          <p>Organization and programming of products for clients with mass consumption operations.</p>
+          <div class="tag-row">
+            <span class="tag">Back-End Development</span><span class="tag">Documentation</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-meta mono">Jan 2017 — Feb 2018 · 1 yr 2 mos<br>Lima, Peru</div>
+        <div>
+          <h3>Technical Support Specialist</h3>
+          <p class="timeline-org">Universidad Nacional Mayor de San Marcos · Internship</p>
+          <p>Maintenance of computer equipment in administrative offices, classrooms and laboratories. Provided help desk assistance to administrative staff.</p>
+          <div class="tag-row">
+            <span class="tag">Technical Support</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="cert-strip">
+      <span class="eyebrow mono" style="margin-bottom: 12px; display:block;">certifications</span>
+      <div class="tag-row">
+        <span class="tag cert">Azure Developer Associate</span>
+        <span class="tag cert">Azure DevOps Engineer Expert</span>
+        <span class="tag cert">Azure AI Fundamentals</span>
+      </div>
+    </div>
   </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: jhonatan.ibatac@gmail.com</p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/jhonatan">linkedin.com/in/jhonatan</a></p>
-    <p>GitHub: <a href="https://github.com/JhonatanIT">github.com/JhonatanIT</a></p>
+  <section id="contact" class="section contact-section">
+    <div class="section-head">
+      <span class="eyebrow mono">04 / contact</span>
+      <h2>Let's talk</h2>
+      <p class="section-sub">Open to collaborating on analysing, designing and developing software solutions — especially where Generative AI meets practical engineering.</p>
+    </div>
+
+    <div class="contact-grid">
+      <a href="mailto:jhonatan.ibatac@gmail.com" class="contact-card">
+        <span class="contact-label mono">email</span>
+        <span class="contact-value">jhonatan.ibatac@gmail.com</span>
+      </a>
+      <a href="https://www.linkedin.com/in/jhonatanib/" target="_blank" rel="noopener" class="contact-card">
+        <span class="contact-label mono">linkedin</span>
+        <span class="contact-value">/in/jhonatanib</span>
+      </a>
+      <a href="https://github.com/JhonatanIT" target="_blank" rel="noopener" class="contact-card">
+        <span class="contact-label mono">github</span>
+        <span class="contact-value">@JhonatanIT</span>
+      </a>
+    </div>
   </section>
 
-  <footer>
-    <p>© 2026 Jhonatan. Hosted with GitHub Pages.</p>
-  </footer>
+</main>
+
+<footer class="site-footer">
+  <p class="mono">© 2026 Jhonatan Ibañez Taccsi · built &amp; hosted with GitHub Pages</p>
+</footer>
+
 </body>
 </html>
